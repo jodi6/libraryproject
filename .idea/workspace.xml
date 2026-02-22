@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c35a26d0-61cf-4fdf-b3f0-b6dcdfd6bee7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/apps/Templates/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Templates/bookmodule/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Templates/bookmodule/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Templates/bookmodule/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/bookmodule/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/usermodule/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraryproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraryproject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/bookmodule/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/bookmodule/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/libraryproject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/libraryproject/urls.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="3A2qdi372xU6O1pNyNXH43uMSdD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.urls.executor": "Run",
+    "Python.views.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-890ed5b35930-d9c5bdb153f4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.23774.444" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c35a26d0-61cf-4fdf-b3f0-b6dcdfd6bee7" name="Changes" comment="" />
+      <created>1771801101916</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771801101916</updated>
+    </task>
+    <servers />
+  </component>
+</project>
