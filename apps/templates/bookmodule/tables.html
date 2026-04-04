@@ -1,0 +1,56 @@
+{% extends "bookmodule/layouts/base.html" %}
+{% load static %}
+
+{% block title %} Task 4: Tables {% endblock title %}
+
+{% block stylesheets %}
+    <style>
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        table, th, td { border: 1px solid black; padding: 10px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        caption { font-weight: bold; margin-bottom: 10px; }
+    </style>
+{% endblock stylesheets %}
+
+{% block content %}
+    <h2>Table 1: Table of Fruits and Their Prices</h2>
+    <table>
+        <tr><th>Fruit</th><th>Price</th></tr>
+        <tr><td>Apple</td><td>$0.25</td></tr>
+        <tr><td>Orange</td><td>$0.50</td></tr>
+        <tr><td>Banana</td><td>$1.00</td></tr>
+        <tr><td>Pineapple</td><td>$2.00</td></tr>
+        <tr><td><b>Total</b></td><td><b>$3.75</b></td></tr>
+    </table>
+
+    <hr>
+
+    <h2>Table 2: A more complex sample table</h2>
+    <table>
+        <caption>Camelid comparison (Approximate as of 6/2011)</caption>
+        <tr>
+            <th># of humps</th>
+            <th>Spits?</th>
+            <th>Indigenous region</th>
+            <th>Produces wool?</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Yes</td>
+            <td>Arabian Peninsula</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Yes</td>
+            <td>Africa/Asia</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Yes</td>
+            <td>Andes Mountains</td>
+            <td>Yes</td>
+        </tr>
+    </table>
+{% endblock content %}

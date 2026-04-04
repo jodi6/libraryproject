@@ -1,0 +1,34 @@
+/* تنسيقات الروابط المطلوبة في Task 1 */
+.qu-link {
+    display: block; /* عرض ككتلة */
+    text-align: center; /* نص ممركز */
+    padding: 15px; /* حواشي */
+    margin: 10px 0;
+    background-color: #f0f0f0;
+    color: blue;
+    text-decoration: none;
+    border: 1px solid #ccc;
+}
+
+/* حالات الروابط */
+.qu-link:visited { color: purple; } /* عند الزيارة */
+.qu-link:hover { background-color: yellow; color: red; } /* عند مرور الماوس */
+.qu-link:active { background-color: green; color: white; } /* عند الضغط */
+
+/* تنسيق خاص لـ Task 2 */
+.format-header {
+    color: darkred;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+th { background-color: #f2f2f2; }

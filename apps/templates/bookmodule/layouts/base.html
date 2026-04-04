@@ -3,18 +3,18 @@
 {% load static %}
 <head>
     <title>{% block title %} {% endblock title %}</title>
-    <meta name="keywords" content="Books, recent, Learning, library">
-    <meta name="description" content="Books website">
-    <meta name="author" content="author name">
-    <link rel="icon" href="{% static 'qu-icon.png' %}">
-    <meta charset="UTF-8">
+
+    <link rel="icon" href="{% static 'qu-icon.PNG' %}">
+
     <link rel="stylesheet" href="{% static 'styles.css' %}">
+
     {% block stylesheets %} {% endblock stylesheets %}
 </head>
 <body>
     {% include "bookmodule/includes/header.html" %}
 
-    {% block content %} {% endblock content %}
+    {% block content %}
+    {% endblock content %}
 
     {% include "bookmodule/includes/footer.html" %}
 </body>
