@@ -1,0 +1,14 @@
+{% extends "bookmodule/layouts/base.html" %}
+
+{% block content %}
+    <h1>Books Statistics (Lab 8 - Task 5)</h1>
+    <ul>
+        <li><strong>Number of books:</strong> {{ stats.count }}</li>
+        <li><strong>Total Price of all books:</strong> {{ stats.total }}</li>
+        <li><strong>Average Price:</strong> {{ stats.avg }}</li>
+        <li><strong>Maximum Price:</strong> {{ stats.max }}</li>
+        <li><strong>Minimum Price:</strong> {{ stats.min }}</li>
+    </ul>
+    <br>
+    <a href="{% url 'books.index' %}">Back to Home</a>
+{% endblock content %}
