@@ -3,5 +3,17 @@
     <a class="{% if url_name == 'books.index' %}active{% endif %}" href="{% url 'books.index' %}">Home</a>
     <a class="{% if url_name == 'books.list_books' %}active{% endif %}" href="{% url 'books.list_books' %}">List Books</a>
     <a class="{% if url_name == 'books.aboutus' %}active{% endif %}" href="{% url 'books.aboutus' %}">About</a>
+    <nav>
+    <ul>
+
+    <li><a href="{% url 'books.index' %}">Home</a></li>
+    <li><a href="{% url 'books.list_books' %}">List Books</a></li>
+    <li><a href="{% url 'search' %}">Search Books</a></li>
+    <li><a href="{% url 'lab5_listing' %}">Lab 5 listing</a></li>
+    <li><a href="{% url 'lab5_tables' %}">Lab 5 Tables</a></li>
+
+
+    </ul>
+</nav>
 </div>
 {% endwith %}

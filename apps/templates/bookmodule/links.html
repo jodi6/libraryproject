@@ -1,4 +1,4 @@
-{% extends "layouts/base.html" %}
+{% extends "bookmodule/layouts/base.html" %}
 {% load static %}
 
 {% block title %} Task 1: Links {% endblock title %}
@@ -8,17 +8,15 @@
 {% endblock stylesheets %}
 
 {% block content %}
-    <h1>Links and Layout Customization</h1>
-
-    <a href="https://www.qu.edu.sa" target="_blank" class="qu-link">
+    <a href="https://www.qu.edu.sa" target="_blank" class="qu-link" id="link1">
         Go to QU website (open a new tab)
     </a>
 
-    <a href="https://www.qu.edu.sa" target="_self" class="qu-link">
+    <a href="https://www.qu.edu.sa" target="_self" class="qu-link" id="link2">
         Go to QU website (open in the same page/tab)
     </a>
 
-    <a href="https://www.qu.edu.sa" target="_self" class="qu-link">
+    <a href="https://www.qu.edu.sa" target="_self" class="qu-link" id="link3">
         Go to QU website (open in the same page/tab)
     </a>
 {% endblock content %}

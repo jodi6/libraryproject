@@ -1,34 +1,32 @@
-/* تنسيقات الروابط المطلوبة في Task 1 */
+/* تنسيق عام لكل الروابط باستخدام الكلاس */
 .qu-link {
-    display: block; /* عرض ككتلة */
+    display: block;    /* عرض ككتلة ليأخذ العرض كاملاً */
     text-align: center; /* نص ممركز */
-    padding: 15px; /* حواشي */
-    margin: 10px 0;
-    background-color: #f0f0f0;
-    color: blue;
-    text-decoration: none;
-    border: 1px solid #ccc;
+    padding: 15px;      /* حواشي */
+    text-decoration: none; /* إزالة الخط تحت الرابط */
+    font-weight: bold;
+    margin: 5px 0;
 }
 
-/* حالات الروابط */
-.qu-link:visited { color: purple; } /* عند الزيارة */
-.qu-link:hover { background-color: yellow; color: red; } /* عند مرور الماوس */
-.qu-link:active { background-color: green; color: white; } /* عند الضغط */
 
-/* تنسيق خاص لـ Task 2 */
-.format-header {
-    color: darkred;
-    text-align: left;
+#link1 { background-color: lightgreen; color: red; }
+#link2 { background-color: #555; color: yellow; }
+#link3 { background-color: black; color: white; }
+
+
+.qu-link:visited {
+    background-color: purple !important;
+    color: white !important;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
+
+.qu-link:hover {
+    background-color: #ddd !important; /* استخدمنا important لتغلب قوة الـ ID */
+    color: blue !important;
 }
-table, th, td {
-    border: 1px solid black;
-    padding: 10px;
-    text-align: left;
+
+
+.qu-link:active {
+    background-color: orange !important;
+    color: black !important;
 }
-th { background-color: #f2f2f2; }
